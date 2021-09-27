@@ -69,7 +69,7 @@ body {
   margin: 0 auto;
 }
 
-.header-nav__btn, .header-info__btn, .ready-inner__btn, .decision__btn, .work__btn, .content__btn, .contact-info__btn, .social__btn {
+.header-nav__btn, .header-info__btn, .ready-inner__btn, .decision__btn, .work__btn, .content__btn, .contact-info__btn, .social__btn, .review__btn {
   font-family: Roboto Condensed;
   font-style: normal;
   font-weight: 400;
@@ -843,5 +843,74 @@ body {
   margin-right: 9px;
   vertical-align: middle;
   padding: 5px;
+}
+
+.review {
+  padding: 70px 0 110px;
+  background: #e5e5e5;
+}
+
+.review__title {
+  margin-bottom: 113px;
+}
+
+.review__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 72px;
+}
+
+.review__item {
+  width: 277px;
+  background-color: #ffffff;
+  padding: 46px 42px 43px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.review__img {
+  width: 113px;
+  height: 113px;
+  border-radius: 50%;
+  background: #c4c4c4;
+  margin: 0 auto 30px;
+}
+
+.review__item-name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 2px;
+}
+
+.review__item-link {
+  font-size: 18px;
+  line-height: 21px;
+  color: #0075bf;
+  margin-bottom: 28px;
+  display: inline-block;
+}
+
+.review__item-text {
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 28px;
+}
+
+.review__item-more {
+  font-size: 14px;
+  line-height: 16px;
+  color: #0075bf;
+}
+
+.review__btn {
+  display: block;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
