@@ -312,6 +312,9 @@
   padding: 72px 0;
   margin-left: -1px;
   color: #ffffff;
+  .contact-info__label{
+    width: 100%;
+  }
   &__inner {
     display: flex;
     justify-content: space-between;
@@ -601,5 +604,104 @@
     margin: 0 auto;
   }
 }
-
+.footer {
+  background-image: url("../img/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  margin-left: -1px;
+  margin-top: -2px;
+  padding: 74px 0 83px;
+  color: #ffffff;
+  .contact-info__label{
+    width: 100%;
+  }
+  &__title {
+    text-align: center;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+  }
+  &__subtitle {
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 42px;
+    text-align: center;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__form {
+    width: 455px;
+  }
+  &__form-input {
+    width: 100%;
+    margin-bottom: 18px;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    padding: 13px 19px;
+  }
+  &__form-textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    padding: 13px 19px;
+    height: 88px;
+    resize: none;
+  }
+  &__form-btn {
+    @extend %btn;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  &__list-item {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  &__list-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background: #ffffff;
+    border-radius: 50%;
+    margin-right: 27px;
+  }
+  &__list-tel {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 49px;
+    color: #fff;
+  }
+  &__list-mail {
+    font-size: 36px;
+    line-height: 42px;
+    color: #fff;
+  }
+  &__list-adress {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  &__social-list {
+    display: flex;
+    align-items: center;
+    li {
+      margin-right: 25px;
+    }
+  }
+  .footer__social-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 @import "media";
