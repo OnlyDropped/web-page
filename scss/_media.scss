@@ -13,6 +13,40 @@
     padding: 12px 0 14px;
     &__box {
       display: none;
+      display: block;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 3;
+      background-color: #f3d1d1;
+      padding-top: 57px;
+      padding-left: 47px;
+      padding-right: 42px;
+      transform: translateY(-100%);
+      transition: all 0.7s;
+      .header-nav__contact {
+        margin-bottom: 21px;
+      }
+      .header-nav__btn {
+        width: 100%;
+        margin-bottom: 28px;
+      }
+      .header-nav__info {
+        display: block;
+        margin-right: auto;
+      }
+      .header-nav__contact-link {
+        font-size: 30px;
+        line-height: 35px;
+      }
+      span {
+        font-size: 14px;
+        line-height: 16px;
+      }
     }
     &__btn-hamburger {
       display: block;
@@ -20,6 +54,13 @@
       padding: 0;
       background-color: transparent;
       cursor: pointer;
+      z-index: 6;
+    }
+    //.logo{
+    //  z-index: 7;
+    //}
+    &__box--active{
+      transform: translateY(0%);
     }
   }
   .header-info {
