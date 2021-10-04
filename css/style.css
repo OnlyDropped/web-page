@@ -1059,6 +1059,54 @@ body {
           align-items: center;
 }
 
+@media (max-width: 1170px) {
+  .title::before {
+    width: 200px;
+  }
+  .title::after {
+    width: 200px;
+  }
+  .ready {
+    padding: 40px 0;
+  }
+  .ready-inner {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .decision {
+    margin-top: -2px;
+  }
+  .work__inner {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .content {
+    padding: 40px 0;
+    margin-top: -2px;
+    margin-left: -2px;
+  }
+  .contact-info {
+    padding: 40px 0px;
+  }
+  .contact-info .header-nav__contact-link {
+    font-size: 32px;
+  }
+  .why-me {
+    padding: 40px 0px;
+  }
+  .review {
+    padding: 40px 0px;
+  }
+  .review__item {
+    padding: 46px 30px 43px;
+  }
+  .footer {
+    padding: 40px 0;
+  }
+}
+
 @media (max-width: 375px) {
   .header {
     height: auto;
